@@ -237,7 +237,7 @@ section .title span a::after {
     width: 0;
   }
   100% {
-    width: 90px;
+    width: 100px;
   }
 }
 @-webkit-keyframes linkAfter {
@@ -245,7 +245,7 @@ section .title span a::after {
     width: 0;
   }
   100% {
-    width: 90px;
+    width: 100px;
   }
 }
 @-o-keyframes linkAfter {
@@ -253,7 +253,7 @@ section .title span a::after {
     width: 0;
   }
   100% {
-    width: 90px;
+    width: 100px;
   }
 }
 @keyframes linkAfter {
@@ -261,7 +261,7 @@ section .title span a::after {
     width: 0;
   }
   100% {
-    width: 155px;
+    width: 170px;
   }
 }
 
@@ -318,6 +318,7 @@ margin-left:31% !important;
   max-width: 860px;
   margin: 30px auto;
   padding: 50px 50px;
+  padding-bottom:100px;
   box-sizing: border-box;
   overflow: hidden;
   background-color:white;
