@@ -273,7 +273,7 @@ margin-left:31% !important;
 
 .s-media{
  position: fixed;
- top: 100px ;
+ top: 30% ;
  left: 0;
  z-index: 1000;
  transition:all linear 0.2s ;
@@ -318,7 +318,7 @@ margin-left:31% !important;
   max-width: 860px;
   margin: 30px auto;
   padding: 50px 50px;
-  padding-bottom:200px;
+  padding-bottom:px;
   box-sizing: border-box;
   overflow: hidden;
   background-color:white;
@@ -390,4 +390,21 @@ hr:nth-of-type(odd):before {
   background: #fafafa;
 }
 
-    
+ header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:20px;
+  background: #262626;
+  width: 100%;
+  margin-top:0px !important;
+  box-sizing: border-box;
+}
+header .logo {
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 250%;
+  
+}
+
