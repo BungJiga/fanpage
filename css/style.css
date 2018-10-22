@@ -412,15 +412,21 @@ position:absolute;
 display:flex;
 z-index:99999;
 max-width:90%;
-left:13%;
+left:25%;
+
   
 }
 
 img{
-  
-width:70%;
-right:0px !important;
-padding-left:10px;
 
+height:80%;
+border:5px solid black !important;
+border-radius:50%;
+  
+}
+
+.images{
+  
+  
   
 }
