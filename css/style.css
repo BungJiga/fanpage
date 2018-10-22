@@ -407,3 +407,20 @@ header .logo {
   
 }
 
+.gallery{
+position:absolute;
+display:flex;
+z-index:99999;
+max-width:90%;
+left:13%;
+  
+}
+
+img{
+  
+width:70%;
+right:0px !important;
+padding-left:10px;
+
+  
+}
