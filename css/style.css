@@ -17,8 +17,51 @@ a {
     text-decoration: none;
 }
 
-.main {
-    height: 100%;
+
+.main section {
+  background-image:url(http://i.imgur.com/Y3Xs6lY.jpg);
+  height: 100vh;
+  display: flex;
+}
+section .title {
+  max-width: 100%;
+  width: 100%;
+  align-self: center;
+  transform: translateY(-50px);
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+section .title span {
+  display: inline-block;
+  font-size: 5vw;
+  color: #efefef;
+  width: 100%;
+  text-transform: uppercase;
+  transform: translateX(800px);
+  animation: byBottom 1s ease both;
+  font-weight: 600;
+  letter-spacing: 0.25vw;
+}
+section .title span:last-child {
+  font-size: 1rem;
+  animation: byBottom 1s 0.25s ease both;
+}
+section .title span a {
+  position: relative;
+  display: inline-block;
+  margin-left: 20%;
+  text-decoration: none;
+  color:white;
+}
+section .title span a::after {
+  content: "";
+  height: 5px;
+  background-color: #003b6f;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  animation: linkAfter 0.8s 1s ease both;
 }
 .social-image{
     width: 30px;
@@ -123,51 +166,7 @@ nav li.slide {
   transition: left 0.3s ease;
   transform: translateY(0);
 }
-section {
-  background-image:url(http://i.imgur.com/Y3Xs6lY.jpg);
-  height: 100vh;
-  display: flex;
-}
-section .title {
-  max-width: 100%;
-  width: 100%;
-  align-self: center;
-  transform: translateY(-50px);
-  margin: 0 auto;
-  overflow: hidden;
-  padding-bottom: 10px;
-}
-section .title span {
-  display: inline-block;
-  font-size: 5vw;
-  color: #efefef;
-  width: 100%;
-  text-transform: uppercase;
-  transform: translateX(800px);
-  animation: byBottom 1s ease both;
-  font-weight: 600;
-  letter-spacing: 0.25vw;
-}
-section .title span:last-child {
-  font-size: 1rem;
-  animation: byBottom 1s 0.25s ease both;
-}
-section .title span a {
-  position: relative;
-  display: inline-block;
-  margin-left: 20%;
-  text-decoration: none;
-  color:white;
-}
-section .title span a::after {
-  content: "";
-  height: 5px;
-  background-color: #003b6f;
-  position: absolute;
-  bottom: -12px;
-  left: 0;
-  animation: linkAfter 0.8s 1s ease both;
-}
+
 @-moz-keyframes pop {
   0% {
     transform: translateY(100%);
@@ -412,7 +411,8 @@ position:absolute;
 display:flex;
 z-index:99999;
 max-width:90%;
-left:25%;
+left:15%;
+top:25%;
 
   
 }
@@ -428,5 +428,12 @@ border-radius:70%;
 .images{
   
   padding:10px;
+  
+}
+
+iframe{
+  
+  
+margin-top:20% !important;  
   
 }
